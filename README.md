@@ -1,1 +1,3 @@
 # testimonies.us
+
+This is a website that I have wanted to make for a long time, and I am just getting started on it. I hope that this website will give people what they need in life to keep going. My goal of this website is to encourage others and ultimately lead people to the Lord. Computers are my thing and codin is my thing, and I fell like this is my way of using my gifts for the Lord. May He bless this website, and may it be used to His glory.
