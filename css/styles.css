@@ -79,6 +79,10 @@
   --bs-highlight-bg: #fff3cd;
 }
 
+#sib-container, .sib-form, .sib-input, .sib-captcha {
+  padding: 0px!important;
+}
+
 *,
 *::before,
 *::after {
