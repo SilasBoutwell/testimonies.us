@@ -5,7 +5,9 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
   
-    <title>Newsletter | Testimonies</title>
+    <title>All testimonies | Testimonies</title>
+    <meta content="Testimonies is a website where people can share their life-changing stories with other. If you are going through tough times, Testimonies has got your back. Come read how people that were once lost like you have now completely changed." name="description">
+    <meta content="Testimonies, testimonies, hurting, stuggling, trials, guilt, shame, regret, how to overcome, how to get over, tired, suicide, hate, need help, counseling, failing, dying, harm, pain, saved, salvation, learn, church, religion, blog, christian, Jesus, jesus, God, Christ, faith" name="keywords">
     
     
     <!-- ======= UPDATE FAVICON BEFORE LAUNCHING ======= -->
@@ -33,6 +35,7 @@
     <!-- START - We recommend to place the below code in head tag of your website html  --><style>  @font-face {    font-display: block;    font-family: Roboto;    src: url(https://assets.brevo.com/font/Roboto/Latin/normal/normal/7529907e9eaf8ebb5220c5f9850e3811.woff2) format("woff2"), url(https://assets.brevo.com/font/Roboto/Latin/normal/normal/25c678feafdc175a70922a116c9be3e7.woff) format("woff")  }  @font-face {    font-display: fallback;    font-family: Roboto;    font-weight: 600;    src: url(https://assets.brevo.com/font/Roboto/Latin/medium/normal/6e9caeeafb1f3491be3e32744bc30440.woff2) format("woff2"), url(https://assets.brevo.com/font/Roboto/Latin/medium/normal/71501f0d8d5aa95960f6475d5487d4c2.woff) format("woff")  }  @font-face {    font-display: fallback;    font-family: Roboto;    font-weight: 700;    src: url(https://assets.brevo.com/font/Roboto/Latin/bold/normal/3ef7cf158f310cf752d5ad08cd0e7e60.woff2) format("woff2"), url(https://assets.brevo.com/font/Roboto/Latin/bold/normal/ece3a1d82f18b60bcce0211725c476aa.woff) format("woff")  }  #sib-container, .sib-form, .sib-input, .sib-captcha {
     padding: 0px!important; background-color: transparent!important;
   } .sib-form-block__button {margin-bottom: 20px!important;} .sib-form .input {color: black!important;} .sib-form-block__button {background-color: transparent!important; border: 2px solid #be8432!important; transition: all .2s ease-in-out} .sib-form-block__button:hover {background-color: #be8432!important;} #sib-container input:-ms-input-placeholder {    text-align: left;    font-family: "Helvetica", sans-serif;    color: #c0ccda;  }  #sib-container input::placeholder {    text-align: left;    font-family: "Helvetica", sans-serif;    color: #c0ccda;  }  #sib-container textarea::placeholder {    text-align: left;    font-family: "Helvetica", sans-serif;    color: #c0ccda;  }</style><link rel="stylesheet" href="https://sibforms.com/forms/end-form/build/sib-styles.css"><!--  END - We recommend to place the above code in head tag of your website html -->
+  
   <style>
     #hero .carousel-container {
         height: 40vh;
@@ -58,20 +61,20 @@
             <li><a class="nav-link scrollto" href="/">Home</a></li>
             <li class="dropdown"><a href="/testimonies"><span>Testimonies</span> <i class="bi bi-chevron-down"></i></a>
               <ul>
-                <li><a href="/#featured-testimonies">Featured Testimonies</a></li>
                 <li><a href="/testimonies">All Testimonies</a></li>
+                <li><a href="/#featured-testimonies">Featured Testimonies</a></li>   
               </ul>
             </li>
-            <!-- <li class="dropdown"><a href="testimonies.html"><span>Testimonies</span> <i class="bi bi-chevron-down"></i></a>
+            <!-- <li class="dropdown"><a href="#"><span>Testimonies</span> <i class="bi bi-chevron-down"></i></a>
               <ul>
-                <li><a href="index.html#new-testimonies">Featured Testimonies</a></li>
-                <li><a href="testimonies.html">All Testimonies</a></li>              
-                <li class="dropdown"><a href="#"><span>Categorized</span> <i class="bi bi-chevron-right"></i></a>
-                  <ul>
-                    <li><a href="#">Addictions</a></li>
-                    <li><a href="#">Struggles</a></li>
-                    <li><a href="#">Salvation</a></li>
-                    <li><a href="#">Teenage</a></li>
+                <li><a href="#">Featured Testimonies</a></li>
+                <li><a href="#all-testimonies">All Testimonies</a></li>              
+                <li class="dropdown"><a href="#all-testimonies"><span>Categorized</span> <i class="bi bi-chevron-right"></i></a>
+                  <ul id="portfolio-filters">
+                    <li><a href="testimonies.html" data-filter=".filter-addictions">Addictions</a></li>
+                    <li><a href="testimonies.html" data-filter=".filter-struggles">Struggles</a></li>
+                    <li><a href="testimonies.html" data-filter=".filter-salvation">Salvation</a></li>
+                    <li><a href="testimonies.html" data-filter=".filter-teenage">Teenage</a></li>
                   </ul>
                 </li>
               </ul>
@@ -91,10 +94,10 @@
       <div class="container">
 
         <div class="d-flex justify-content-between align-items-center">
-          <h2>Newsletter</h2>
+          <h2>All Testimonies</h2>
           <ol>
             <li><a href="/">Home</a></li>
-            <li>Newsletter</li>
+            <li>Testimonies</li>
           </ol>
         </div>
 
@@ -103,27 +106,162 @@
 
     <main>
 
-    <section id="Newsletter" class="about">
+      <!-- ======= Portfolio Section ======= -->
+      <section id="all-testimonies" class="portfolio testimonials">
         <div class="container">
   
-          <div class="section-title" data-aos="zoom-out" data-aos-delay="200">
-            <h2>Newsletter</h2>
-            <p>Thank you for signing up</p>
+          <div class="section-title" data-aos="zoom-out">
+            <h2>Testimonies</h2>
+            <p>All Testimonies</p>
           </div>
+        
+          <ul id="portfolio-flters" class="d-flex justify-content-end links" data-aos="fade-up">
+            <li data-filter="*" class="filter-active">All</li>
+            <li data-filter=".filter-salvation">Salvation</li>
+            <li data-filter=".filter-addictions">Addictions</li>
+            <li data-filter=".filter-struggles">Struggles</li>
+          </ul>
+
+          <ul id="portfolio-flters" class="d-flex justify-content-end links " data-aos="fade-up">
+            <li data-filter=".filter-teenage">Teenage</li>
+            <li data-filter=".filter-anger">Anger</li>
+            <li data-filter=".filter-abuse">Abuse</li>
+            <li data-filter=".filter-suicide">Suicide</li>
+          </ul>
+
+          <ul id="portfolio-flters" class="d-flex justify-content-end links " data-aos="fade-up">
+            <li data-filter=".filter-articles">Articles</li>
+          </ul>
   
-          <div class="row content" data-aos="fade-up" data-aos-delay="400">
-            <div class="col-lg-6 d-flex align-items-center text-center" style="padding: 0 20px; font-size: larger;">
-              <p>
-                Thank you for signing up for our newsletter. You will now start receiving emails from us. If you no longer want to receive emails from us or you did this by mistake, you can unsubscribe at any time.
-              </p>
+          <div class="row portfolio-container" data-aos="fade-up">
+  
+            <div class="col-lg-4 col-md-6 portfolio-item filter-salvation">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonies/donnawillims.jpg" class="testimonial-img" alt="">          
+                <h3>Donna Williams</h3> 
+                <p>
+                  "Amazing Grace", This is My Story: <br>I was raised Southern Baptist. I attended church from the time I was born. At the age of eight, I went forward to a church service and said that I wanted to be baptized.       
+                </p>
+                <a href="/testimonies/donnawilliams" class="btn-read-more">Read More</a>
+                <br><br>
+              </div>
             </div>
-            <div class="col-lg-6 pt-4 pt-lg-0">
-                <img src="assets/img/newsletter.jpg" alt="" class="img-fluid">
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-salvation">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonies/florencedvorak.jpg" class="testimonial-img" alt="">          
+                <h3>Florence Dvorak</h3>          
+                <p>
+                  I was born and raised in a Christian home. At a very young age, I knew I was lost and needed a Savior. My mother was a strong Christian testimony in our home and community in Savage, Montana.          
+                </p>
+                <a href="/testimonies/florencedvorak" class="btn-read-more">Read More</a>
+                <br><br>
+              </div>
             </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-salvation filter-suicide filter-addictions filter-struggles filter-abuse filter-anger">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonies/profile-placeholder.png" class="testimonial-img" alt="">          
+                <h3>Don Murray</h3> 
+                <p>
+                  I was born in the middle of the Depression in poor circumstances. My father, who was an alcoholic, left us when I was three years old. Soon after, my mother put my brother and me into...   
+                </p>
+                <a href="/testimonies/donmurray" class="btn-read-more">Read More</a>
+                <br><br>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-salvation filter-addictions filter-struggles filter-suicide">
+              <div class="testimonial-item">          
+                <img src="assets/img/testimonies/jerrywilliams.jpg" class="testimonial-img" alt="">          
+                <h3>Jerry Williams</h3>          
+                <p>
+                  I was saved on September 8, 1970. I was born and raised in a small town in the panhandle of Nebraska. Because we had only one church in our town, which happened to be a Presbyterian church...          
+                </p>
+                <a href="/testimonies/jerrywilliams" class="btn-read-more">Read More</a>
+                <br><br>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-salvation">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonies/marvinmckenzie.jpg" class="testimonial-img" alt="">          
+                <h3>Pastor McKenzie</h3> 
+                <p>
+                  I did not grow up in a Christian environment - far from it. My mother was a bartender, and my stepdad was a rodeo cowboy. Still, as far back as I can remember, I have believed God exists.     
+                </p>
+                <a href="/testimonies/pastormckenzie" class="btn-read-more">Read More</a>
+                <br><br>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-salvation">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonies/pastorpeace.jpg" class="testimonial-img" alt="">          
+                <h3>Pastor Peace</h3> 
+                <p>
+                  At the tender age of seven, in the humble confines of a small country Baptist church in Missouri, my life took a transformative turn. Shyness clung to me like a shadow, but deep within...   
+                </p>
+                <a href="/testimonies/pastorpeace" class="btn-read-more">Read More</a>
+                <br><br>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-salvation">
+              <div class="testimonial-item">          
+                <img src="assets/img/testimonies/annabellecamp.jpg" class="testimonial-img" alt="">          
+                <h3>Annabelle Camp</h3>          
+                <p>
+                  I grew up in a Christian home in Central California. We went to church every service. I memorized scriptures from the time I was four. I quoted scripture and believed...
+                </p>
+                <a href="/testimonies/annabellecamp" class="btn-read-more">Read More</a>
+                <br><br>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-salvation">
+              <div class="testimonial-item">          
+                <img src="assets/img/testimonies/nathancamp.jpg" class="testimonial-img" alt="">          
+                <h3>Nathan Camp</h3>          
+                <p>
+                  I was raised in a Christian home, and we faithfully attended Baptist churches all my life. After a weak revival on Feb 1st, 1981, at 6 years old, I was convicted of my sins.
+                </p>
+                <a href="/testimonies/nathancamp" class="btn-read-more">Read More</a>
+                <br><br>
+              </div>
+            </div>
+  
+            <div class="article col-lg-4 col-md-6 portfolio-item filter-salvation filter-addictions filter-struggles filter-teenage filter-anger filter-abuse filter-articles filter-suicide">
+              <div class="portfolio-img"><img src="assets/img/article/heaven.jpg" class="img-fluid" alt=""></div>
+              <div class="portfolio-info">
+                <h4>How to get to Heaven</h4>
+                <p>Article</p>
+                <a href="/articles/how-to-get-to-heaven" class="details-link">Read It</a>
+              </div>
+            </div>
+  
+            <div class="article col-lg-4 col-md-6 portfolio-item filter-articles">
+              <div class="portfolio-img"><img src="assets/img/article/old-church.jpeg" class="img-fluid" alt=""></div>
+              <div class="portfolio-info">
+                <h4>Why is the church important</h4>
+                <p>Article</p>
+                <a href="/articles/why-is-the-church-important" class="details-link">Read It</a>
+              </div>
+            </div>
+
+            <div class="article col-lg-4 col-md-6 portfolio-item filter-articles">
+              <div class="portfolio-img"><img src="assets/img/article/bible.jpg" class="img-fluid" alt=""></div>
+              <div class="portfolio-info">
+                <h4>A Critique on the American </h4><h4>Moral Consensus</h4>
+                <p>Article</p>
+                <a href="/articles/american-moral-consensus" class="details-link">Read It</a>
+              </div>
+            </div>
+  
           </div>
   
         </div>
-      </section><!-- End About Section -->
+      </section><!-- End Portfolio Section -->
 
     </main>
 
