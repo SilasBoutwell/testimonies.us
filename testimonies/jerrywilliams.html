@@ -112,7 +112,7 @@
 
           <div class="col-lg-4">
             <div class="portfolio-info">
-              <h3 id="testimonyName"><img src="../assets/img/testimonies/jerrywilliams.jpg" class="img-fluid d-sm-inline d-lg-none" alt=""></h3>
+              <h3 id="testimonyName"></h3>
               <ul>
                 <li><strong>Category</strong>: Salvation, Addictions, Struggles, Suicide</li>
                 <li><strong>Published</strong>: February 23, 2024</li>
@@ -253,6 +253,7 @@
 
   <script>
 
+// ******** Fill out Name!!! *******
     var fullName = "Jerry Williams";
 
     const splitName = fullName.split(" ");
@@ -270,7 +271,8 @@
     }
 
     displayFullName.innerText = fullName;
-    testimonyName.innerText = fullName;
+    // ******* Fill out Image!!! ********
+    testimonyName.innerHTML = fullName + '<img src="../assets/img/testimonies/jerrywilliams.jpg" class="img-fluid d-sm-inline d-lg-none" alt="">';
     displayFullNamePossessive.innerText = fullName + "'s Testimony";
     displayFullNameTitle.innerText = fullName + "'s Testimony | Testimonies";
   </script>
