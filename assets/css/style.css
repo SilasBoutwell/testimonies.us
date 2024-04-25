@@ -1313,6 +1313,10 @@ section {
   box-shadow: none;
 }
 
+.btn-close {
+  font-size: 20px;
+}
+
 @media (max-width: 768px) {
   .pop-up p, #FIRSTNAME, #LASTNAME, #EMAIL, .sib-form-block__button {
     font-size: 13px !important;
